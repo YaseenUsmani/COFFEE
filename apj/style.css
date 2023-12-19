@@ -1,0 +1,32 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.contener{
+    background-color: rgb(160, 160, 231);
+    border: 15px solid rgb(16, 11, 97);
+    min-height: 100vh;
+}
+.fist{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.fist h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.h4{
+    font-size: 30px;
+    text-align: end;
+}
+.imge{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imge img{
+    width: 250px;
+    height: 270px;
+}
